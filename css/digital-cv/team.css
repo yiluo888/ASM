@@ -1,0 +1,21 @@
+.team .content-container {
+    margin-top: 20px;
+}
+
+.team .content-container .team-content {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.team .content-container .team-content .ic-person {
+    display: flex;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+
+.team .content-container .team-content .subcontent {
+    width: 100%;
+}

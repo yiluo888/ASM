@@ -1,0 +1,37 @@
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+#footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 400px;
+    height: 100px;
+}
+
+
+#footer li a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+#footer li a>p {
+    margin: 0;
+}
+
+#footer li i {
+    font-size: 26px;
+    color: var(--color-bluesky);
+}

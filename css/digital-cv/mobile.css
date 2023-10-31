@@ -1,0 +1,83 @@
+@media (max-width: 767px) {
+
+    /* css for container all content web */
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: auto;
+        background-color: var(--color-background);
+        padding: 20px 20px 20px 20px;
+        gap: 20px;
+    }
+
+    /* css order items */
+    .container .goals {
+        order: 0;
+    }
+
+    .team {
+        order: 2;
+    }
+
+    .timeline {
+        order: 4;
+    }
+
+    .scopes {
+        order: 1;
+    }
+
+    .primary {
+        order: 3;
+    }
+
+
+    /* goals content */
+    .container .goals .goal-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    /* team content */
+    .team .content-container .team-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .team .content-container .team-content .subcontent {
+        padding-left: 20px;
+    }
+
+    /* timeline content */
+    .timeline .timeline-content {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .timeline .timeline-content .subcontent {
+        padding-left: 20px;
+    }
+
+    .timeline .timeline-content .number {
+        margin-left: 20px;
+    }
+
+    /* scopes content */
+    .scopes .content-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* primary content */
+    .primary .content-container .primary-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primary .content-container .primary-content .subcontent {
+        padding-left: 20px;
+    }
+}

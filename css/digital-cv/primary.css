@@ -1,0 +1,21 @@
+.primary .content-container {
+    margin-top: 20px;
+}
+
+.primary .content-container .primary-content {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.primary .content-container .primary-content .ic-primary {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+
+.primary .content-container .primary-content .subcontent {
+    width: 100%;
+}

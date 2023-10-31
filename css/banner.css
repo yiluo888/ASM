@@ -1,0 +1,44 @@
+#banner {
+    text-align: center;
+}
+
+#banner {
+    --background-transparent-color: rgba(0, 0, 0, 0.4);
+    --text-banner-color: #f2f2f2;
+}
+
+#banner .background-transparent {
+    width: 100%;
+    height: 500px;
+    background-color: var(--background-transparent-color);
+    position: absolute;
+    top: 0;
+}
+
+#banner img {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+}
+
+#banner .text-banner {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 0;
+    color: var(--text-banner-color);
+}
+
+#banner .text-banner h1 {
+    font-weight: 500;
+    font-size: 38px;
+}
+
+#banner .text-banner span {
+    font-weight: 100;
+    font-size: 15px;
+    color: #d9d9d9;
+}

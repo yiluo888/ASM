@@ -1,0 +1,25 @@
+/* css for content of goal item */
+.container .goals .content-container {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.container .goals .goal-content {
+    display: flex;
+    border-bottom: 1px solid var(--color-border-light);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.container .goals .goal-content .ic-goals {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: center;
+}
+
+.container .goals .goal-content .subcontent {
+    flex: 1;
+    padding-right: 40px;
+}

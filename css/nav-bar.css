@@ -1,0 +1,38 @@
+#nav-bar .container {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    position: relative;
+}
+
+#nav-bar .container a {
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-border);
+}
+
+#nav-bar .container a>i {
+    color: var(--color-bluesky);
+}
+
+#nav-bar .container .about-navbar {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-bar .avatar {
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    height: 165px;
+    border: 10px solid white;
+    box-shadow: 2px 2px  #f2f2f2;
+
+}

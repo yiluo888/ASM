@@ -1,0 +1,68 @@
+#about .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 450px;
+}
+
+#about h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+/* about target */
+#about #target {
+    padding: 50px 70px 10px 180px;
+}
+
+/* about personal-info */
+#about #personal-info {
+    padding: 50px 10px 10px 70px;
+    background-color: #e6e6e6;
+}
+
+#about #personal-info ul {
+    list-style-type: none;
+    padding: 0;
+    color: var(--color-p-in-bg-grey);
+}
+
+#about #personal-info span {
+    color: black;
+}
+
+#about #personal-info .icon-contacts-social {
+    margin-top: 40px;
+}
+
+#about #personal-info .icon-contacts-social a {
+    margin-right: 8px;
+    color: var(--color-bluesky);
+}
+
+/* css form input email */
+#about #personal-info .form-email .email-input {
+    width: 85%;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #BDBDBD;
+}
+
+#about #personal-info .form-email .email-input:focus {
+    outline-color: var(--color-bluesky);
+}
+
+#about #personal-info .form-email .btn-submit-email {
+    margin-top: 15px;
+    width: 80px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: #206BAA;
+    border: 0;
+    color: white;
+}
+
+#about #personal-info .form-email .btn-submit-email:hover {
+    cursor: pointer;
+    background-color: #204B8D;
+}

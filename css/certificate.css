@@ -1,0 +1,40 @@
+#certificate {
+    display: flex;
+    justify-content: center;
+}
+
+#certificate .container {
+    margin: 50px 0 50px 0;
+    width: 1024px;
+}
+
+/* design grid layout for container certificate items */
+#certificate .container .grid-section-certificate {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+/* css for each certificate item */
+#certificate .container .grid-section-certificate .certificate-item {
+    display: flex;
+    gap: 15px;
+    padding: 35px 0 35px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+#certificate .container .grid-section-certificate .certificate-item:last-child {
+    border: 0;
+}
+
+/* css for image certificate */
+#certificate .container .grid-section-certificate .certificate-item img {
+    width: 180px;
+    height: auto;
+}
+
+#certificate .container .grid-section-certificate .certificate-item .title-certificate {
+    color: black;
+    margin-bottom: 10px;
+}

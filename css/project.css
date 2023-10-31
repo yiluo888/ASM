@@ -1,0 +1,97 @@
+#project {
+    display: flex;
+    justify-content: center;
+}
+
+#project .container {
+    width: 1024px;
+    margin: 50px 0 50px 0;
+}
+
+/* css grid layout for project items */
+#project .container .grid-project-container {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+/* css for each project item */
+#project .container .project-item {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* css for image project */
+#project .container .project-item img {
+    display: block;
+    width: 320px;
+    height: auto;
+}
+
+/* css for project name */
+#project .container .project-item .project-name {
+    padding-left: 20px;
+    border: 1px solid var(--color-border);
+    border-top: 0;
+    height: 50px;
+    padding-top: 15px;
+}
+
+#project .container .project-item .project-name p {
+    color: black;
+}
+
+/* css about project */
+#project .container .project-item .about {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    gap: 15px;
+    height: 50px;
+    border: 1px solid var(--color-border);
+    border-top: 0;
+}
+
+#project .container .project-item .about .time {
+    background-color: var(--color-bluesky);
+    width: 60px;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 12px;
+}
+
+#project .container .project-item .about .company-position>p {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+/* css for details project */
+#project .container .project-item .details {
+    border-spacing: 0;
+    flex-grow: 1;
+}
+
+#project .container .project-item .details td {
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid var(--color-border);
+    border-top: 0;
+}
+
+#project .container .project-item .details td:first-child {
+    border-left: 1px solid var(--color-border);
+}
+
+#project .container .project-item .details td:last-child {
+    border-right: 1px solid var(--color-border);
+}
